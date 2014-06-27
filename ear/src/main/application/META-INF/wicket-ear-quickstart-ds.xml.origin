@@ -23,14 +23,14 @@
     xsi:schemaLocation="http://www.jboss.org/ironjacamar/schema http://docs.jboss.org/ironjacamar/schema/datasources_1_0.xsd">
     <!-- The datasource is bound into JNDI at this location. We reference 
         this in META-INF/persistence.xml -->
-    <datasource jndi-name="java:jboss/datasources/MySqlDS"
+    <datasource jndi-name="java:jboss/datasources/WicketEarQuickstartDS"
         pool-name="wicket-ear-quickstart" enabled="true"
         use-java-context="true">
-				<connection-url>jdbc:mysql://mysql1:3306/wicketdb</connection-url>
+	<connection-url>jdbc:mysql://172.17.0.11:3306/jboss1</connection-url>
         <driver>com.mysql</driver>
         <security>
-            <user-name>admine7qkc7dh</user-name>
-            <password>ujnk4m3n</password>
+            <user-name>adminocejh9vp</user-name>
+            <password>1hk61h98</password>
         </security>
     </datasource>
 </datasources>
